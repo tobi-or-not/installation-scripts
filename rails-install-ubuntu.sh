@@ -16,8 +16,8 @@ curl -L get.rvm.io | bash -s stable
 source ~/.rvm/scripts/rvm
 
 echo "Installs Ruby"
-rvm install 1.9.3-p194
-rvm use 1.9.3-p194 --default
+rvm install 2.1.0
+rvm use 2.1.0 --default
 
 gem install bundler --no-rdoc --no-ri
 gem install rails --no-rdoc --no-ri
